@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         mUsers = new ArrayList<>();
 
         User firstUser = new User("Daniel", "Malone", "daniel@finepointmobile.com");
+        User secondUser = new User("asdf", "asdf", "daniel@finepointmobile.com");
         mUsers.add(firstUser);
+        mUsers.add(secondUser);
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         mRecyclerView.setHasFixedSize(true);
